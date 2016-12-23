@@ -1,18 +1,77 @@
-�� ���� ���� �� ������ ���� ��� ���� bot ����
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۰:۳۳]
+[Forwarded from "^[!/#][Cc]li_[Aa]pi$" (Ｒａｍｉｎ)]
+ب فایل utils.lua در پوشه bot  فانکشن زیر رو اضافه کنید.
+function is_magic(msg)
+  local var = false
+  — Check users id in config
+  for v,user in pairs(_config.magic_users) do
+    if user == msg.from.id then
+      var = true
+    end
+  end
+  return var
+end
+در فایل کانفیگ خط زیر رو اضافه کنید
+magic_users = {id1,id2,....},
+تمام
+استفاده 
+if is_magic(msg) then
+return 'hi magic user!'
+end
+کپی فقط فروارد❤️
+@UB_CH
+ادامشم میزنم اگه امار 120 بشه
 
-���� ���� data ��� � ���� config.lua �� ��� ����
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۰:۳۶]
+[In reply to √shield√™[FA]]
+یادش بخیر اولین نفری که مقام ریخت امیر اس بی اس اس بود و بعدش من 
 
-��� ���� ���� seedbot.lua ���� � ���� ������ �� �� �� 239 ��� ���� �� Ȑ����� �� ���� ���
+رامین واقعا خیلی کسکشی که خزش کردی😐
+
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۰:۴۷]
+راستی رامین بازم کسکشی چون از مجیک تیم اسکی رفتی😐
+
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۱:۲۶]
+دوستان منم به مناسبت نیمه شعبان اضافه کردن رنک جدید رو می دم
+یعنی دو فایل utils و seedbot رو می دم😄
+
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۱:۲۸]
+[ File : utils.lua ]
+
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۱:۲۸]
+[ File : seedbot.lua ]
+
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۱:۳۲]
+دو فایل بالا را جایگزین فایل های پوشه bot کنید
+
+وارد پوشه data شده و فایل config.lua را حذف کنید
+
+بعد وارد فایل seedbot.lua شوید و ایدی خودتون را در خط 239 جای ایدی من بگذارید به صورت زیر
 shieldteam = {your id}
 
-� �� �� ������ ���� ���� data ��� � ���� confing.lua �� ��� ���� � ���� ��� �� �� ���� ��� �� ��� �� Ȑ�����
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۱:۳۴]
+و یا می توانید وارد پوشه data شده و فایل confing.lua را باز کنید و ایدی خود را به صورت زیر در اخر ان بگذارید
 
   shieldteam = {
 your id
   },
 
-�� ���� ��� �� ��� 
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۱:۳۵]
+رنک جدید شما به نام 
 is_shield
-��� �� 
+ثبت شد 
 
-�� ��� ��� ���� ������ ���� ���� � ��� ��� ���� �� ���� ��� ����� ����� ���
+در ضمن این مقام بالاتر سودو بوده و کار این مقام را سودو نمی تواند انجام دهد
+
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۱:۴۲]
+my friend please don't kill me😂
+
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۲:۰۸]
+رامین من خیلی وقت پیش رنک is_asa برا خودم ساختم چون حوصله تعریف متن زیر نداشتم😐
+if msg.from.id == yourid then
+
+√shield√™[FA], [۲۱.۰۵.۱۶ ۲۲:۲۵]
+رامین به جای 
+if ramin then
+می زنن
+if msg.from.id == tonumber(ramin) then
